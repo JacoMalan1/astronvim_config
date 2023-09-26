@@ -18,13 +18,26 @@ return {
   },
 
   -- Set colorscheme to use
-  colorscheme = "astrodark",
+  colorscheme = "catppuccin",
+  -- colorscheme = "astrodark",
 
   -- Diagnostics configuration (for vim.diagnostics.config({...})) when diagnostics are on
   diagnostics = {
     virtual_text = true,
     underline = true,
   },
+
+  -- dap = {
+  --   configurations = {
+  --     java = {
+  --       {
+  --         type = "python",
+  --         request = "launch",
+  --         name = "Launch file",
+  --       }
+  --     }
+  --   },
+  -- },
 
   lsp = {
     -- customize lsp formatting options
@@ -53,7 +66,7 @@ return {
       -- "pyright"
     },
   },
-
+  
   -- Configure require("lazy").setup() options
   lazy = {
     defaults = { lazy = true },
